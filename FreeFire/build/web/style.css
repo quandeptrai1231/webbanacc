@@ -1,0 +1,211 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29-12-2023, 00:39:13
+    Author     : Quan
+*/
+
+
+
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.navbar li{
+    list-style-type: none;
+    margin-right: 30px;
+    padding:10px 10px 10px 10px;
+    color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+}
+.navbar li:hover{
+    background-color: rgb(250, 189, 3);
+    color:black;
+}
+.navbar ul{
+    display:flex;
+    margin-right: 20px;
+
+}
+.navbar{
+    margin-right: 20px;
+}
+.giaodich{
+    margin-top: 0px;
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 50px;
+
+}
+.titlegiaodich{
+    background-color: yellow;
+    color: rgb(140, 59, 5);
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+}
+.titlegiaodich p{
+    text-align: center;
+}
+.anhgiaodich{
+
+}
+.anhgiaodich img{
+    width:100%;
+    height:100%;
+}
+.formgiaodich{
+    margin-right: 500px;
+    margin-left: 200px;
+
+
+}
+.infogiaodich{
+    display:flex;
+
+
+}
+.ten{
+    color:rgb(118, 131, 135);
+}
+.maacc{
+    color: rgb(236, 181, 14);
+}
+.giatien{
+    color:red;
+}
+
+.formgiaodich .sapxep{
+    justify-content: space-evenly;
+}
+.nhapthe .infothe{
+    margin-bottom: 15px;
+}
+.chu-y{
+    color: red;
+    font-weight: bold;
+}
+.napthe{
+    margin-top: 0px;
+    background-color: black;
+    padding-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 200px;
+   
+}
+.infothe input{
+    width: 400px;
+    height:30px;
+}
+.nutnaptien button{
+    width:139px;
+    height:40px;
+    background-color: yellow;
+    color:rgb(140, 59, 5);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.login-signin button{
+    width:100px;
+    height:30px;
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.thongtinhotro button{
+
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    margin-left: 200px;
+}
+.hotro-cacphuongthucnapkhac{
+    padding-top: 10px;
+    display:flex;
+
+}
+.cacphuongthucnapkhac{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.cacphuongthucnapkhac button{
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 100%;
+    background-color: black;
+
+}
+.momo{
+    margin-left: 60px;
+
+}
+
+.momo img{
+    width:90%;
+
+}
+
+.atm img{
+    width:90%;
+
+}
+
+.item-list-1 a{
+    text-decoration: none;
+    
+}
+.item-list-1 img{
+    width: 60%;
+}
+
+.list-sanpham-1 .item-list-1 button{
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+   padding: 5px 5px 5px 5px;
+}
+.list-sanpham-1 .item-list-1 button:hover{
+    background-color: white;
+    color: green;
+}
+.list-sanpham-1{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.sale-name{  
+    height:25px;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 37px;
+    
+}
+.chinhsua img{
+    padding-bottom: 15px;
+}
+.chinhsua{
+    width: 50%;
+}
+#freefire img{
+    padding-bottom: 23px;
+}

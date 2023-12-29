@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html>
+    <head>
+        <title>Trang Web acc game giá rẻ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <img src="https://lienminhshop.vn/Data/upload/images/Gems/Logo.png" alt="alt"/>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>Trang Chủ</li>
+                    <li>Thông Tin Chủ Shop</li>
+                    <li>Cách Mua Acc</li>
+                    <li>Cách Bảo Mật</li>
+                    <li>Nạp Tiền</li>
+                </ul>
+
+            </div>
+            <div class="login-signin">
+                <form action="login" method="post">
+                    <button type="submit">Đăng Nhập</button>
+                    <button type="submit"> Đăng Kí</button>
+                </form>
+            </div>
+        </div>
+        <div class="giaodich">
+            <div class="formgiaodich">
+                <div class="titlegiaodich">
+                    <p>Khách Hàng Vừa Giao Dịch</p>
+                </div>
+                <div class="infogiaodich sapxep">
+                    <div class="ten">
+                        <p>Anh Quân Đẹp Trai</p>
+                        <p>Đào Việt(Đần)</p>
+                        <p>Việt Anh</p>
+                        <p>Lê Dương Bảo Lâm</p>
+                        <p>Trần Đức Bo</p>
+                    </div>
+                    <div class="maacc sapxep">
+                        <p>LOL - Acc #238319</p>
+                        <p>LOL - Acc #238373</p>
+                        <p>LOL - Acc #238384</p>
+                        <p>LOL - Acc #238340</p>
+                        <p>LOL - Acc #238425</p>
+                    </div>
+                    <div class="giatien sapxep">
+                        <p>10.000.000đ</p>
+                        <p>5.500.000đ</p>
+                        <p>4.300.000đ</p>
+                        <p>2.700.000đ</p>
+                        <p>3.500.000đ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="anhgiaodich">
+                <img src="https://lienminhshop.vn/Data/ResizeImage/images/gems/MUA_BAN_ACC_LMHTx0x0x2.webp" alt="alt"/>
+            </div>
+        </div>
+        <!--==============Nap The===========-->
+        <div class="napthe">
+            <div class="nhapthe">
+                <p class="chu-y">Chú ý: Chọn sai mệnh giá - Mất 100% giá trị thẻ. Nạp 100k = 100k</p>
+                <form action="napthe" method="post">
+                    <div class="infothe"><input type="text" placeholder="Chọn loại thẻ" name="loaithe"></div>
+                    <div class="infothe"><input type="text" placeholder="Chọn mệnh giá thẻ" name="menhgia"></div>
+                    <div class="infothe"><input type="text" placeholder="Nhập serial" name="serial"></div>
+                    <div class="infothe"><input type="text" placeholder="Nhập mã thẻ" name="mathe"></div>
+                    <div class="infothe nutnaptien"><button type="submit">Nạp Thẻ</button></div>
+
+
+                </form>
+            </div>
+            <div class="hotro-phuongthucnapkhac">
+                <div class="thongtinhotro">
+                    <form action="hotro" method="post">
+                        <button type="submit">
+                            <img src="https://lienminhshop.vn/Data/ResizeImage/images/gems/cau_hoi.gif" alt="alt"/>
+                        </button>
+                    </form>
+                </div>
+                <div class="cacphuongthucnapkhac">  
+                    <div class="momo">
+                        <form action="momo" method="post">
+                            <button type="submit">
+                                <img src="https://lienminhshop.vn/Data/ResizeImage/images/gems/nap_tien_momo.gif" alt="alt"/>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="atm">
+                        <form action="atm" method="post">
+                            <button type="submit">
+                                <img src="https://lienminhshop.vn/Data/ResizeImage/images/gems/nap_tien_atm.gif" alt="alt"/>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- ===============Danh muc game================-->
+
+
+
+        <div class="sale-name">
+            <h2>DANH MỤC GAME</h2>
+        </div>
+        <div class="list-sanpham-1">
+            <div class="item-list-1">
+
+                <img src="https://lienminhshop.vn/Content/images/game/game-lm.gif" alt=""/><br>
+
+                <p>Liên Minh Huyền Thoại</p>
+                <p>  Số tài khoản: 14.933 </p>
+                <p>Đã bán: 128.126</p>
+                <form action="buyitem" method="post">
+                    <button type="submit">Xem Tất Cả</button>
+                </form>
+            </div>
+            <div class="item-list-1">
+
+                <img src="https://lienminhshop.vn/Content/images/game/game-lq.gif" alt=""/><br>
+
+                <p> Liên Quân</p>
+                <p> Số tài khoản: 3.958 </p>
+                <p>Đã bán: 3.896</p>
+                <form action="buyitem" method="post">
+                    <button type="submit">Xem Tất Cả</button>
+                </form>
+            </div>
+            <div class="item-list-1 chinhsua" id="freefire">
+
+                <img src="https://cdn.upanh.info/storage/upload/images/%E1%BA%A2nh%20Thumb%20Web/Thumb%20t%E1%BA%BFt%20-%20V2/MUA-NICK-FREE-FIRE-VIP.gif" alt=""/><br><!-- comment -->
+
+                <p>Acc Free Fire Vip</p>
+                <p>  Số tài khoản: 8.080 </p>
+                <p>Đã bán: 6.280</p>
+                <form action="buyitem" method="post">
+                    <button type="submit">Xem Tất Cả</button>
+                </form>
+            </div>
+            <div class="item-list-1 chinhsua">
+
+                <img src="https://cdn.upanh.info/storage/upload/images/VONG-QUAY-DAI-CHIEN-GIANG-SINH.gif" alt=""/><br>
+
+                <p>Vòng Quay Đại Chiến Giáng Sinh</p>
+                <p> Đã quay: 2591 </p>
+                <p>19.000 đ/1 vòng </p>
+                <form action="buyitem" method="post">
+                    <button type="submit">Mua Ngay</button>
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+</html>
